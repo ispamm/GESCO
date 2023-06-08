@@ -20,7 +20,7 @@ We prove, through an in-depth assessment of multiple scenarios,  that our method
 
 #### Train GESCO
 
-* Install the requirements.
+* Install the file `requirements.txt` and, separately, `conda install pytorch==1.12.1 torchvision==0.13.1 -c pytorch`.
 
 * Run the following command:
 
@@ -37,6 +37,8 @@ For COCO: `--dataset_mode coco`, `--image_size 256`, `--num_classes 183`, `--cla
 For ADE20K: `--dataset_mode ade20k`, `--image_size 256`, `--num_classes 151`, `--class_cond True`, `--no_instance True`.
 
 #### Sample from GESCO
+
+* Train your own model or download our pretrained weights [here]().
 
 * Run the following command:
 
