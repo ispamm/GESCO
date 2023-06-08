@@ -1,6 +1,8 @@
 ## Generative Semantic Communication: Diffusion Models Beyond Bit Recovery
 ### [Eleonora Grassucci](https://sites.google.com/uniroma1.it/eleonoragrassucci/home-page), [Sergio Barbarossa](https://sites.google.com/a/uniroma1.it/sergiobarbarossa/), and [Danilo Comminiello](https://danilocomminiello.site.uniroma1.it/)
 
+[[ArXiv Preprint](https://arxiv.org/abs/2306.04321v1)]
+
 This repository is under construction! :)
 
 #### Abstract
@@ -19,5 +21,13 @@ We prove, through an in-depth assessment of multiple scenarios,  that our method
 Soon
 
 #### Cite
+Please, cite our work if you found it useful.
 
-Soon on ArXiv!
+```
+@article{grassucci2023generative,
+    title={Generative Semantic Communication: Diffusion Models Beyond Bit Recovery},
+    author={Grassucci, Eleonora and Barbarossa, Sergio and Comminiello, Danilo},
+    year={2023},
+    journal={ArXiv preprint: ArXiv:2306.04321},
+}
+```
