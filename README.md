@@ -36,7 +36,7 @@ For COCO: `--dataset_mode coco`, `--image_size 256`, `--num_classes 183`, `--cla
 
 For ADE20K: `--dataset_mode ade20k`, `--image_size 256`, `--num_classes 151`, `--class_cond True`, `--no_instance True`.
 
-### Sample from GESCO
+#### Sample from GESCO
 
 * Run the following command:
 
