@@ -105,7 +105,7 @@ def main():
         # plt.savefig("./test.png")
 
         # model_kwargs = preprocess_input(args, cond, num_classes=args.num_classes, one_hot_label=args.one_hot_label, pool=None)
-        model_kwargs = preprocess_input_luigi(args, cond, num_classes=args.num_classes, one_hot_label=args.one_hot_label)
+        model_kwargs = preprocess_input_FDS(args, cond, num_classes=args.num_classes, one_hot_label=args.one_hot_label)
         # model_kwargs, cond = preprocess_input(cond, one_hot_label=args.one_hot_label, add_noise=args.add_noise, noise_to=args.noise_to)
 
 
@@ -222,7 +222,7 @@ def preprocess_input(args, data, num_classes, one_hot_label=True):
 
     return {'y': input_semantics_clean}
 
-def preprocess_input_luigi(args, data, num_classes, one_hot_label=True):
+def preprocess_input_FDS(args, data, num_classes, one_hot_label=True):
     
     pool = "max"
     label_map = data['label'].long()
